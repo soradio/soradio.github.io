@@ -148,7 +148,7 @@ body {
   background-image: -webkit-gradient(linear, left top, left bottom, from(#343A3F), to(#232528));
   background-image: linear-gradient(#343A3F 0%, #232528 100%);
   border: 1px solid #393b3c;
-  border-radius: 50px;
+  border-radius: 0px;
   box-shadow: 5px 5px 35px #18191D;
 }
 .app__head {
