@@ -19,8 +19,8 @@ var app = new Vue({
 		currentSong: 0,
 		debug: false,
 		musicPlaylist: [
-       {"title": "Record вЂ” РќРѕРІРѕРµ (27-03-2020)","artist": "Radioshow","url": "http://92.255.66.40/tmp_audio/itunes1/record_new_-_2020-03-27.mp3","image": "http://www.radiorecord.ru/upload/resize_cache/iblock/064/372_372_1/0644d524cc8bfc1470064e9c61a8287d.png"},
-{"title": "вЂЋOliver Heldens presents Heldeep Radio","artist": "Radioshow","url": "http://media.rawvoice.com/oliverheldens/media2-oliverheldens.podtree.com/media/podcast/Heldeep_Radio_301.mp3","image": "https://is3-ssl.mzstatic.com/image/thumb/Podcasts123/v4/87/e1/28/87e128d0-9079-1049-6f09-4fcbaaa32545/mza_15774772898170683301.jpg/552x0w.jpg"},
+       {"title": "Record (27-03-2020)","artist": "Radioshow","url": "http://92.255.66.40/tmp_audio/itunes1/record_new_-_2020-03-27.mp3","image": "http://www.radiorecord.ru/upload/resize_cache/iblock/064/372_372_1/0644d524cc8bfc1470064e9c61a8287d.png"},
+{"title": "Oliver Heldens presents Heldeep Radio","artist": "Radioshow","url": "http://media.rawvoice.com/oliverheldens/media2-oliverheldens.podtree.com/media/podcast/Heldeep_Radio_301.mp3","image": "https://is3-ssl.mzstatic.com/image/thumb/Podcasts123/v4/87/e1/28/87e128d0-9079-1049-6f09-4fcbaaa32545/mza_15774772898170683301.jpg/552x0w.jpg"},
 {"title": "Atom Pushers & 5ynk ","artist": " Adderall ft. Blak Trash","url": "https://alexa-soundcloud.now.sh/stream/392939265/stream?client_id=iDJ0Aa4u1XF1NNjmMMsbSMv0ugQz4xEQ","image": "https://i1.sndcdn.com/artworks-000295328094-bloe05-t500x500.jpg"},
 {"title": "Tom Tyger ","artist": " Delano ()","url": "https://alexa-soundcloud.now.sh/stream/267792138/stream?client_id=iDJ0Aa4u1XF1NNjmMMsbSMv0ugQz4xEQ","image": "https://i1.sndcdn.com/artworks-000166181829-ikgldr-t500x500.jpg"},
 {"title": "Martin Garrix & Matisse & Sadko feat. Michel Zitron ","artist": " Hold On","url": "https://alexa-soundcloud.now.sh/stream/734493388/stream?client_id=iDJ0Aa4u1XF1NNjmMMsbSMv0ugQz4xEQ","image": "https://i1.sndcdn.com/artworks-000658868071-e59l2h-t500x500.jpg"},
