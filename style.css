@@ -350,6 +350,7 @@
   font-size: 14px;
   background: #fff;
   z-index: 77777;
+  height: 500px;
 }
 .audio-player .player-controls .pl-ul {
   width: 100%;
