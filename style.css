@@ -1,6 +1,7 @@
 html,
 body {
   height: 100%;
+  background-color: #383B44;
 }
 .carousel {
   width: 100%;
