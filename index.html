@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Full-container fading background video carousel</title>
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id="carousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="false">
+  <ol class="carousel-indicators">
+      <li data-target="#carousel" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel" data-slide-to="1"></li>
+      <li data-target="#carousel" data-slide-to="2"></li>
+      <li data-target="#carousel" data-slide-to="3"></li>
+  </ol>
+  
+  <!-- Carousel items -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <div class="slide-content">
+        <div class="slide-overlay door">
+          <iframe src="http://hypednc.ru" width="430" height="960" align="left" frameborder="no"></iframe>
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <div class="slide-content">
+        <video poster="http://192.241.175.50/videos/boston.jpg" webkit-playsinline id="bgvid" loop>
+          <source src="http://192.241.175.50/videos/boston.webm" type="video/webm">
+          <source src="http://192.241.175.50/videos/boston.mp4" type="video/mp4">
+        </video>
+        <div class="slide-overlay door">
+          <div class='title'> Slide 2 </div>
+          <div class="description"> The Second Description </div>
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <div class="slide-content">
+        <video poster="http://192.241.175.50/videos/split.jpg" webkit-playsinline id="bgvid" loop>
+          <source src="http://192.241.175.50/videos/split.webm" type="video/webm">
+          <source src="http://192.241.175.50/videos/split.mp4" type="video/mp4">
+        </video>
+        <div class="slide-overlay door">
+          <div class='title'>Slide 3</div>
+          <div class="description"> #AnotherOne #AndAnotherOne</div>
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <div class="slide-content">
+        <video poster="http://192.241.175.50/videos/samo.jpg" webkit-playsinline id="bgvid" loop>
+          <source src="http://192.241.175.50/videos/samo.webm" type="video/webm">
+          <source src="http://192.241.175.50/videos/samo.mp4" type="video/mp4">
+        </video>
+        <div class="slide-overlay door">
+          <div class='title'>Slide 4</div>
+          <div class="description"> #PapaBlessUp </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <a class="carousel-control left" href="#carousel" data-slide="prev">
+   <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  
+  <a class="carousel-control right" href="#carousel" data-slide="next">
+   <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+  
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
