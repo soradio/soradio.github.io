@@ -35,6 +35,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  width:0px;
 }
 .carousel-fade .carousel-control .glyphicon {
   font-size: 6rem;
