@@ -2,62 +2,12 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=0.9, minimum-scale=0.9">
-  <title>CodePen - Full-container fading background video carousel</title>
-  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
-
+    <meta name="viewport" content="width=device-width, initial-scale=0.9, minimum-scale=0.9">
+  <title>Music Player</title>
 </head>
 <body>
-<!-- partial:index.partial.html -->
-<div id="carousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="false">
-  <ol class="carousel-indicators">
-      <li data-target="#carousel" data-slide-to="0" class="active"></li>
-      <li data-target="#carousel" data-slide-to="1"></li>
-      <li data-target="#carousel" data-slide-to="2"></li>
-      <li data-target="#carousel" data-slide-to="3"></li>
-  </ol>
-  
-  <!-- Carousel items -->
-  <div class="carousel-inner">
-    <div class="item active">
-      <div class="slide-content">
-        <div class="slide-overlay door">
-          <iframe src="http://hypednc.ru" width="430" height="960" align="left" frameborder="no"></iframe>
-        </div>
-      </div>
-    </div>
-    <div class="item">
-      <div class="slide-content">
-        <div class="slide-overlay door">
-        </div>
-      </div>
-    </div>
-    <div class="item">
-      <div class="slide-content">
-        <div class="slide-overlay door">
-        </div>
-      </div>
-    </div>
-    <div class="item">
-      <div class="slide-content">
-        <div class="slide-overlay door">
-        </div>
-      </div>
-    </div>
-  </div>
-  
-  <a class="carousel-control left" href="#carousel" data-slide="prev">
-   <span class="glyphicon glyphicon-chevron-left"></span>
-  </a>
-  
-  <a class="carousel-control right" href="#carousel" data-slide="next">
-   <span class="glyphicon glyphicon-chevron-right"></span>
-  </a>
-  
-</div>
-<!-- partial -->
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'></script><script  src="./script.js"></script>
-
+    <div class="myCast" id="stream1"></div>
+<script src='https://code.jquery.com/jquery-3.0.0.min.js'></script>
+<script>$('<link>').appendTo('head').attr({ type: 'text/css', rel: 'stylesheet', href: 'https://streemlion.com/player/css/player.css'}); $('<script>').appendTo('body').attr({ src: 'https://streemlion.com/player/js/player.js' });</script><script>function foo() {$('body').append("<script>$('#stream1').myCast({URL: 'http://176.31.98.109:8838', version: '2', mount_point: '', logo: '', vertical_layout: true,bg: 'bluegrey', accent: 'deeporange', blur: true, autoplay: true, enable_cors: false,  })</\script>");};setTimeout(foo, 200);</script>
 </body>
 </html>
